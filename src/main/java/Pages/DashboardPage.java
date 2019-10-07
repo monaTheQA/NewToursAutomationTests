@@ -38,6 +38,8 @@ public class DashboardPage extends BasePage {
 	@FindBy(xpath="//select[@name='toMonth']")
 	private WebElement ReturningMonth;
 	
+	@FindBy(xpath="//select[@name='toDay']")
+	private WebElement ReturningDay;
 	
 	
 	
